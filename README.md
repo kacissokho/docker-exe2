@@ -8,10 +8,10 @@
 
 # docker run -d -p 20200:8080 tomcat:v1
 
-# 137.74.107.139 :20200
+# Mon_address_ip:20200                pour acceder tomcat
 
 # result.txt
 
 # docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer -H unix:///var/run/docker.sock
 
-# 137.74.107.139 :9000
+# Mon_address_ip:9000                    pour acceder portainer
